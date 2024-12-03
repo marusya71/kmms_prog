@@ -2,15 +2,15 @@
 
 int main() {
 	int day;
-	std::cout << "‚âåäèòå äåíü: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ´ĞµĞ½ÑŒ: ";
 	std::cin >> day;
 
 	int month;
-	std::cout << "‚âåäèòå ìåñßö: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¼ĞµÑÑÑ†: ";
 	std::cin >> month;
 
 	int year;
-	std::cout << "‚âåäèòå ãîä: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ³Ğ¾Ğ´: ";
 	std::cin >> year;
 
 	int century_year = year % 100;
@@ -28,25 +28,25 @@ int main() {
 
 	switch (result) {
 	case 0:
-		std::cout << "‚îñêğåñåíüå" <<std::endl;
+		std::cout << "Ğ’Ğ¾ÑĞºÑ€ĞµÑĞµĞ½ÑŒĞµ" <<std::endl;
 		break;
 	case 1:
-		std::cout << "îíåäåëüíèê" <<std::endl;
+		std::cout << "ĞŸĞ¾Ğ½ĞµĞ´ĞµĞ»ÑŒĞ½Ğ¸Ğº" <<std::endl;
 		break;
 	case 2:
-		std::cout << "‚òîğíèê" <<std::endl;
+		std::cout << "Ğ’Ñ‚Ğ¾Ñ€Ğ½Ğ¸Ğº" <<std::endl;
 		break;
 	case 3:
-		std::cout << "‘ğåäà" <<std::endl;
+		std::cout << "Ğ¡Ñ€ĞµĞ´Ğ°" <<std::endl;
 		break;
 	case 4:
-		std::cout << "—åòâåğã" <<std::endl;
+		std::cout << "Ğ§ĞµÑ‚Ğ²ĞµÑ€Ğ³" <<std::endl;
 		break;
 	case 5:
-		std::cout << "ßòíèöà" <<std::endl;
+		std::cout << "ĞŸÑÑ‚Ğ½Ğ¸Ñ†Ğ°" <<std::endl;
 		break;
 	case 6:
-		std::cout << "ñóááîòà" <<std::endl;
+		std::cout << "ÑÑƒĞ±Ğ±Ğ¾Ñ‚Ğ°" <<std::endl;
 		break;
 	}
 	return 0;
